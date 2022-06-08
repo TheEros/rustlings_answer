@@ -21,3 +21,8 @@ mod tests {
         assert_eq!(my_macro!("goodbye!"), "Hello goodbye!");
     }
 }
+
+
+fn my_macro(name:&str) -> &'static str {
+    "Hello"+=name
+}
