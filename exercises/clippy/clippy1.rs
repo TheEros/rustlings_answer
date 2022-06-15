@@ -6,8 +6,6 @@
 // check clippy's suggestions from the output to solve the exercise.
 // Execute `rustlings hint clippy1` for hints :)
 
-// I AM NOT DONE
-
 use std::f32;
 
 fn main() {

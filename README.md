@@ -1,5 +1,94 @@
 # rustlings 🦀❤️
 
+```csv
+Name             	Path                                          	Status
+intro1           	exercises/intro/intro1.rs                     	Done
+intro2           	exercises/intro/intro2.rs                     	Done
+variables1       	exercises/variables/variables1.rs             	Done
+variables2       	exercises/variables/variables2.rs             	Done
+variables3       	exercises/variables/variables3.rs             	Done
+variables4       	exercises/variables/variables4.rs             	Done
+variables5       	exercises/variables/variables5.rs             	Done
+variables6       	exercises/variables/variables6.rs             	Done
+functions1       	exercises/functions/functions1.rs             	Done
+functions2       	exercises/functions/functions2.rs             	Done
+functions3       	exercises/functions/functions3.rs             	Done
+functions4       	exercises/functions/functions4.rs             	Done
+functions5       	exercises/functions/functions5.rs             	Done
+if1              	exercises/if/if1.rs                           	Done
+if2              	exercises/if/if2.rs                           	Done
+quiz1            	exercises/quiz1.rs                            	Done
+move_semantics1  	exercises/move_semantics/move_semantics1.rs   	Done
+move_semantics2  	exercises/move_semantics/move_semantics2.rs   	Done
+move_semantics3  	exercises/move_semantics/move_semantics3.rs   	Done
+move_semantics4  	exercises/move_semantics/move_semantics4.rs   	Done
+move_semantics5  	exercises/move_semantics/move_semantics5.rs   	Done
+move_semantics6  	exercises/move_semantics/move_semantics6.rs   	Done
+primitive_types1 	exercises/primitive_types/primitive_types1.rs 	Done
+primitive_types2 	exercises/primitive_types/primitive_types2.rs 	Done
+primitive_types3 	exercises/primitive_types/primitive_types3.rs 	Done
+primitive_types4 	exercises/primitive_types/primitive_types4.rs 	Done
+primitive_types5 	exercises/primitive_types/primitive_types5.rs 	Done
+primitive_types6 	exercises/primitive_types/primitive_types6.rs 	Done
+structs1         	exercises/structs/structs1.rs                 	Done
+structs2         	exercises/structs/structs2.rs                 	Done
+structs3         	exercises/structs/structs3.rs                 	Done
+enums1           	exercises/enums/enums1.rs                     	Done
+enums2           	exercises/enums/enums2.rs                     	Done
+enums3           	exercises/enums/enums3.rs                     	Done
+modules1         	exercises/modules/modules1.rs                 	Done
+modules2         	exercises/modules/modules2.rs                 	Done
+modules3         	exercises/modules/modules3.rs                 	Done
+vec1             	exercises/collections/vec1.rs                 	Done
+vec2             	exercises/collections/vec2.rs                 	Done
+hashmap1         	exercises/collections/hashmap1.rs             	Done
+hashmap2         	exercises/collections/hashmap2.rs             	Done
+strings1         	exercises/strings/strings1.rs                 	Done
+strings2         	exercises/strings/strings2.rs                 	Done
+quiz2            	exercises/quiz2.rs                            	Done
+errors1          	exercises/error_handling/errors1.rs           	Done
+errors2          	exercises/error_handling/errors2.rs           	Done
+errors3          	exercises/error_handling/errors3.rs           	Done
+errors4          	exercises/error_handling/errors4.rs           	Done
+errors5          	exercises/error_handling/errors5.rs           	Done
+errors6          	exercises/error_handling/errors6.rs           	Done
+generics1        	exercises/generics/generics1.rs               	Done
+generics2        	exercises/generics/generics2.rs               	Done
+generics3        	exercises/generics/generics3.rs               	Done
+option1          	exercises/option/option1.rs                   	Done
+option2          	exercises/option/option2.rs                   	Done
+option3          	exercises/option/option3.rs                   	Done
+traits1          	exercises/traits/traits1.rs                   	Done
+traits2          	exercises/traits/traits2.rs                   	Done
+tests1           	exercises/tests/tests1.rs                     	Done
+tests2           	exercises/tests/tests2.rs                     	Done
+tests3           	exercises/tests/tests3.rs                     	Done
+quiz3            	exercises/quiz3.rs                            	Done
+box1             	exercises/standard_library_types/box1.rs      	Done
+arc1             	exercises/standard_library_types/arc1.rs      	Done
+iterators1       	exercises/standard_library_types/iterators1.rs	Done
+iterators2       	exercises/standard_library_types/iterators2.rs	Done
+iterators3       	exercises/standard_library_types/iterators3.rs	Done
+iterators4       	exercises/standard_library_types/iterators4.rs	Done
+iterators5       	exercises/standard_library_types/iterators5.rs	Done
+threads1         	exercises/threads/threads1.rs                 	Done
+macros1          	exercises/macros/macros1.rs                   	Pending
+macros2          	exercises/macros/macros2.rs                   	Pending
+macros3          	exercises/macros/macros3.rs                   	Pending
+macros4          	exercises/macros/macros4.rs                   	Pending
+quiz4            	exercises/quiz4.rs                            	Done
+clippy1          	exercises/clippy/clippy1.rs                   	Done
+clippy2          	exercises/clippy/clippy2.rs                   	Done
+using_as         	exercises/conversions/using_as.rs             	Done
+from_into        	exercises/conversions/from_into.rs            	Done
+from_str         	exercises/conversions/from_str.rs             	Done
+try_from_into    	exercises/conversions/try_from_into.rs        	Done
+as_ref_mut       	exercises/conversions/as_ref_mut.rs           	Done
+advanced_errs1   	exercises/advanced_errors/advanced_errs1.rs   	Pending
+advanced_errs2   	exercises/advanced_errors/advanced_errs2.rs   	Pending
+Progress: You completed 78 / 84 exercises (92.86 %).
+```
+
 Greetings and welcome to `rustlings`. This project contains small exercises to get you used to reading and writing Rust code. This includes reading and responding to compiler messages!
 
 _...looking for the old, web-based version of Rustlings? Try [here](https://github.com/rust-lang/rustlings/tree/rustlings-1)_
@@ -136,13 +225,15 @@ build the project with all features (the equivalent of `cargo build --all-featur
 For specific editor instructions:
 
 - **VSCode**: Add a `.vscode/settings.json` file with the following:
+
 ```json
 {
-    "rust-analyzer.cargo.features": ["exercises"]
+  "rust-analyzer.cargo.features": ["exercises"]
 }
 ```
+
 - **IntelliJ-based Editors**: Using the Rust plugin, everything should work
-    by default.
+  by default.
 - _Missing your editor? Feel free to contribute more instructions!_
 
 ## Continuing On
